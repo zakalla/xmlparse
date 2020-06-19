@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransferFight>
+  <!-- 第一种配置格式 -->
+  <map name="ShowHints" key="playername">
+    <data playername="xiaohua" value="11"/>
+    <data playername="xiaoming" value="22"/>
+  </map>
+  <!-- 第二种配置格式 -->
+  <vector name="ItemScores">
+    <data id="309" score="2"/>
+    <data id="509" score="4"/>
+  </vector>
+  <!-- 第三种配置格式 -->
+  <LastTime>50</LastTime>
+  <!-- 第四种配置格式 -->
+  <Reward itemid="1" itemnum="2"/>
+  <!-- 第五种配置格式 -->
+  <Items>6:3:2:4:5:1</Items>
+  <!-- 第六种配置格式 -->
+  <Sorts>1|xiaoming:2|xiaohua:3|xiaozhang</Sorts>
+  <!-- 多层配置格式解析 -->
+  <SecondTransfer>
+    <LastTime>9999</LastTime>
+    <tt>9</tt>
+  </SecondTransfer>
+</TransferFight>

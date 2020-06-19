@@ -1,2 +1,4 @@
-# xmlparse
-Automatically generate c++ code based on xml file.
+1. 执行脚本parse.sh生成c++配置解析
+2. 进行了xml文件格式化，如果格式不正确会报错，此次执行失败
+3. xml里面兄弟节点命名相同，执行脚本不会报错，c++代码编译会报错
+4. xml兄弟节点目前支持6种配置格式
