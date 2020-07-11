@@ -129,7 +129,7 @@ class VarType
     {
       return m_str.c_str();
     }
-   
+
     operator int () const
     {
       if (m_str.empty()) return 0;
@@ -165,7 +165,7 @@ class VarType
       if (m_str.empty()) return 0;
       return std::stod(m_str);
     }
-    
+
     template <typename T>
     operator std::vector<T> () const
     {

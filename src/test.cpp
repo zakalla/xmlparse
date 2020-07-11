@@ -1,5 +1,4 @@
 #include "AutoParseConfig.h"
-#include "iostream"
 
 int main()
 {
@@ -47,14 +46,14 @@ int main()
     std::cout << s << ' ';
   }
   std::cout << std::endl;
-  
+
   std::cout << "第六种配置格式解析:" << std::endl;
   const std::map<int, std::string>& mp = rCFG.Sorts;
   for (auto& m : mp)
   {
     std::cout << m.first << ' ' << m.second << std::endl;
   }
-  
+
   std::cout << "多层配置格式解析:" << std::endl;
   int lastTime2 = rCFG.getSecondTransfer().LastTime;
   std::cout << lastTime2 << std::endl;
