@@ -269,7 +269,7 @@ def parseAll(fileDir, srcDir):
   openFile = open(filePath, 'w')
   openFile.writelines(lineAll0)
   openFile.writelines(lineAll1)
-  
+
   lineAll2.append(2*space + 'return true;\n')
   lineAll2.append('}' + 2*'\n')
   lineAll3.append(2*space + '}\n' + '}\n')
@@ -282,4 +282,4 @@ def parseAll(fileDir, srcDir):
 
   print('Complete !')
 
-parseAll('/home/zyb/test/auto/config/', '/home/zyb/test/auto/src/')
+parseAll('/home/zyb/xmlparse/config/', '/home/zyb/xmlparse/src/')

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-folder="/home/zyb/test/auto/config/"
+folder="/home/zyb/xmlparse/config/"
 files=$(ls $folder)
 flag=0
 for file in $files
