@@ -1,6 +1,6 @@
 #!/bin/bash
 
-folder="/home/zyb/xmlparse/config/"
+folder=$(cd $(dirname $0); pwd)"/config/"
 files=$(ls $folder)
 flag=0
 for file in $files

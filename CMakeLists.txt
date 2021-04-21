@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-project(test_pro)
+project(test)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -13,4 +13,4 @@ aux_source_directory(${ROOT_DIR}/src varsrc)
 
 include_directories(${ROOT_DIR}/src)
 
-add_executable(test_pro ${varsrc})
+add_executable(test ${varsrc})

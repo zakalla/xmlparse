@@ -4,6 +4,7 @@ except ImportError:
     import xml.etree.ElementTree as ET
 
 import os
+import sys
 import collections
 
 space = ' '
@@ -282,4 +283,4 @@ def parseAll(fileDir, srcDir):
 
   print('Complete !')
 
-parseAll('/home/zyb/xmlparse/config/', '/home/zyb/xmlparse/src/')
+parseAll(sys.path[0]+'/config/', sys.path[0]+'/src/')
